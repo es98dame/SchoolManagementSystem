@@ -1,0 +1,5 @@
+<?=$header;?>
+<?=$navigation;?>
+<?=$breadcrumb;?>
+<?=$content_body;?>
+<?=$footer;?>

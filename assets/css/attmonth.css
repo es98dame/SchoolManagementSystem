@@ -1,0 +1,56 @@
+.PrintButton{
+    display:block;
+}
+.formtable {
+    border-top:1px solid rgb(240,240,240);
+    border-left:1px solid rgb(240,240,240);
+    padding:0;
+    width:310px;
+    empty-cells:show;
+    margin-bottom:20px;
+}
+
+.formtable td {
+    background:rgb(255,255,255);
+    border-bottom:1px solid rgb(240,240,240);
+    border-right:1px solid rgb(240,240,240);
+    padding:4px;
+    margin:0;
+    vertical-align:top;
+    text-align:left;
+    font-size:8pt;
+}
+
+.formtable td.tableinfo {
+    font-weight:bold;
+    background:rgb(230,230,230);
+    padding:6px 4px;
+}
+
+.formtable td.tablecol {
+    background:rgb(245,245,245);
+    font-size:10px;
+    text-transform:uppercase;
+}
+
+.month {
+    width:300px;
+    float:left;
+    margin-right:20px;
+}
+
+.month td {
+    padding:2px;
+}
+
+.month td a i {
+    font-style:normal;
+}
+
+.month td a {
+    color:rgb(128,128,128);
+}
+
+.month td a:hover {
+    color:rgb(0,85,255);
+}

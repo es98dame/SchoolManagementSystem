@@ -44,4 +44,4 @@ CHANGES.md
 php_errorlog
 
 #Custome Doc
-application/libraries/document
+application/libraries/document/*.pdf

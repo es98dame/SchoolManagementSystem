@@ -20,10 +20,10 @@ class Alidb {
 	var $vNowClassGroupSumClass;
 
 	function ALIDb(){
-		 $HostName = "sql549.main-hosting.eu";
-		 $UserName = "u866174927_es98dame";
-		 $PasswdName = "chzhclq312A";
-		 $DatabaseName = "u866174927_alidb";
+		 $HostName = "";
+		 $UserName = "";
+		 $PasswdName = "";
+		 $DatabaseName = "";
 
 	    $this->con = mysqli_connect($HostName, $UserName, $PasswdName,$DatabaseName);
 		if (!$this->con) {

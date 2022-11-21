@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-xs-8 text-right" style="margin-top: 5px;">
                         <span class="glyphicon glyphicon-phone"> 214-352-0582</span>
-                        <span class="glyphicon glyphicon-envelope"> <a href="mailto:info@schooldname.com">Info@schooldname.com</a></span>
+                        <span class="glyphicon glyphicon-envelope"> <a href="mailto:info@schoolname.com">Info@schoolname.com</a></span>
                     </div>
                     <div class="col-xs-2">
                         <button type="button" style="margin-right:-8px;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -147,7 +147,7 @@
                         <li<?php if($navi_seq=="apply"){ echo " class='active'";}?>><?=anchor('#apply', 'APPLY', array('data-toggle'=>'tab') )?></li>
                         <li<?php if($navi_seq=="life"){ echo " class='active'";}?>><?=anchor('#life', 'STUDENT LIFE', array('data-toggle'=>'tab') )?></li>
                         <li style="float:right;margin-top:8px;"><span class="glyphicon glyphicon-phone" style="font-size:16px;">&nbsp;214-352-0582</span></li>
-                        <li style="float:right;margin-top:8px;"><span class="glyphicon glyphicon-envelope">&nbsp;<a href="mailto:info@schooldname.com" style="font-weight:bold; font-size:13px; color:black;" target="_top">info@schooldname.com</a></span>&nbsp;&nbsp;</li>
+                        <li style="float:right;margin-top:8px;"><span class="glyphicon glyphicon-envelope">&nbsp;<a href="mailto:info@schoolname.com" style="font-weight:bold; font-size:13px; color:black;" target="_top">info@schoolname.com</a></span>&nbsp;&nbsp;</li>
                     </ul>
                 </div>
                 <div class="tab-content hidden-xs">

@@ -43,11 +43,11 @@
             }
             if(name=='btExcel'){
                 var v6 = this.getCombo("schoolyear").getSelectedValue() + "(" + this.getCombo("trimester").getSelectedValue() + "trimester)";
-                grid_classgrid.toExcel('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title='+v6+'&filename=All_Finance_Sheet'+v6);
+                grid_classgrid.toExcel('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title='+v6+'&filename=All_Finance_Sheet'+v6);
                 return true;
             }
             if(name=='btPDF'){
-                grid_classgrid.toPDF('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-pdf-php/generate.php');
+                grid_classgrid.toPDF('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-pdf-php/generate.php');
                 return true;
             }
         }

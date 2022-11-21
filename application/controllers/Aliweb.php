@@ -1378,7 +1378,7 @@ class Aliweb extends CI_Controller
 
 
 
-        $this->email->from("smtp@schooldname.com","ALI");
+        $this->email->from("smtp@schoolname.com","ALI");
 
 
 
@@ -1390,7 +1390,7 @@ class Aliweb extends CI_Controller
 
 
 
-        $this->email->bcc("records@schooldname.com");
+        $this->email->bcc("records@schoolname.com");
 
 
 
@@ -1538,7 +1538,7 @@ class Aliweb extends CI_Controller
 
 
 
-            $this->email->from("smtp@schooldname.com", $ss_username);
+            $this->email->from("smtp@schoolname.com", $ss_username);
 
 
 
@@ -1546,7 +1546,7 @@ class Aliweb extends CI_Controller
 
 
 
-            $this->email->bcc("records@schooldname.com");
+            $this->email->bcc("records@schoolname.com");
 
 
 
@@ -1587,11 +1587,6 @@ class Aliweb extends CI_Controller
 
 
     }
-
-
-
-
-
 
 
     function scheduler()
@@ -3795,11 +3790,11 @@ class Aliweb extends CI_Controller
 
 
 
-            $this->email->from("smtp@schooldname.com", $ss_username);
+            $this->email->from("smtp@schoolname.com", $ss_username);
 
 
 
-            $this->email->to("records@schooldname.com");
+            $this->email->to("records@schoolname.com");
 
 
 
@@ -5900,11 +5895,11 @@ class Aliweb extends CI_Controller
 
 
 
-            $this->email->from("smtp@schooldname.com", $ss_username);
+            $this->email->from("smtp@schoolname.com", $ss_username);
 
 
 
-            $this->email->to("records@schooldname.com");
+            $this->email->to("records@schoolname.com");
 
 
 

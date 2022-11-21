@@ -144,11 +144,11 @@
     printfm.setSkin('dhx_skyblue');
     printfm.attachEvent("onButtonClick", function(name,command){
         if(name=='btExcel'){
-            sheetgrid.toExcel('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title=Attendance Sheet&filename=Attendance_Sheet(Remediation_Class)');
+            sheetgrid.toExcel('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title=Attendance Sheet&filename=Attendance_Sheet(Remediation_Class)');
             return true;
         }
         if(name=='btPDF'){
-            sheetgrid.toPDF('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-pdf-php/generate.php?filename=Attendance_Sheet');
+            sheetgrid.toPDF('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-pdf-php/generate.php?filename=Attendance_Sheet');
             return true;
         }
         return false;

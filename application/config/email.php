@@ -2,8 +2,8 @@
 
 $config['useragent'] = 'CodeIgniter';
 $config['protocol'] = 'mail';
-$config['smtp_host'] = 'schooldname.com';
-$config['smtp_user'] = 'smtp@schooldname.com';
+$config['smtp_host'] = 'schoolname.com';
+$config['smtp_user'] = 'smtp@schoolname.com';
 $config['smtp_pass'] = '!skyblue2301';
 $config['smtp_port'] = 465;
 $config['smtp_timeout'] = 5;

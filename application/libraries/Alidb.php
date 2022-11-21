@@ -21,17 +21,17 @@ class Alidb
 	var $vNowClassGroupSumClass;
 
 	function ALIDb(){
-		 $HostName = "sql549.main-hosting.eu";
-		 $UserName = "u866174927_es98dame";
-		 $PasswdName = "chzhclq312A";
-		 $DatabaseName = "u866174927_alidb";
-		 print_r('ggddddd connec');
+		 $HostName = "";
+		 $UserName = "";
+		 $PasswdName = "";
+		 $DatabaseName = "";
+
 	    $this->con = mysqli_connect($HostName, $UserName, $PasswdName,$DatabaseName);
 		if (!$this->con) {
-			print_r('ggd connec');
+
 			die('Connect Error: ' . mysqli_connect_error());
 		}else{
-			print_r('Good connec');
+
 		}
 		mysqli_query($this->con,"SET NAMES 'euckr'");
 	}
@@ -43,7 +43,7 @@ class Alidb
 	/* Execute a myqsl query. Optionally set the number of records affected. Connection is handled automatically  by the constructor and destructor.  */
 	function query($sql){
 	    $sql = str_replace(array('\\"', "\\'"), array('"', "'"), $sql);
-			print_r("hi3");
+
 			if ($result = mysqli_query($this->con, $sql)) {
 
 		}else{

@@ -1190,7 +1190,7 @@
             financefm.attachEvent("onButtonClick", function(name,command){
                 if(name=='btPrint'){
                     var v1 = financefm.getItemLabel("stdname") + " " + financefm.getItemLabel("sevis");
-                    grid_finance.toExcel('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title='+v1+'&filename=Financials('+v1+')');
+                    grid_finance.toExcel('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title='+v1+'&filename=Financials('+v1+')');
                     return true;
                 }
                 if(name=='btPrintPDF'){
@@ -1467,7 +1467,7 @@
                         myWindow.close();
                     }
                 }
-                $(myWindow.document.head).html( '<title>Attendance</title><link rel="stylesheet" href="http://'.$_SERVER['HTTP_HOST'].'/assets/css/attmonth.css?v=2" type="text/css" />');
+                $(myWindow.document.head).html( '<title>Attendance</title><link rel="stylesheet" href="http://'+$_SERVER['HTTP_HOST']+'/assets/css/attmonth.css?v=2" type="text/css" />');
                 $(myWindow.document.body).html( '</head><body>' + data + '</body></html>');
 
                 myWindow.document.close();

@@ -48,7 +48,7 @@
                 document.getElementById("yearid").value = v1;
                 document.getElementById("trimid").value = v2;
                 document.getElementById("exportform").submit();
-               grid_classgrid.toExcel('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php');
+               grid_classgrid.toExcel('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php');
                 return true;
             }
         }

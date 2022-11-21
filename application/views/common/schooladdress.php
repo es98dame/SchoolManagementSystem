@@ -5,7 +5,7 @@
     <div>Please find advisors for your questions and requests at,<br/>
         <strong>Address here &nbsp;&nbsp;&nbsp; USA</strong><br/>
         <strong>Phone:  Fax: </strong><br/>
-        <strong>info@schooldname.com</strong>
+        <strong>info@schoolname.com</strong>
     </div>
 </div>
 <br/>

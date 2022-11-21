@@ -51,7 +51,6 @@
                     </li>
                 <?php } ?>
                 <?php if($this->session->userdata('TOPLEVEL_AUTH') == 1 || $this->session->userdata('TOPLEVEL_AUTH')==2 || $this->session->userdata('TOPLEVEL_AUTH')==4){ ?>
-                    <li <?php if($navi_seq=="scheduler"){ echo "class='active'";};?>><?=anchor('aliweb/scheduler', 'Scheduler', null )?></li>
 
                     <li <?php if($navi_seq=="student"){ echo "class='active'";};?> class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student <span class="caret"></span></a>

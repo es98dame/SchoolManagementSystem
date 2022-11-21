@@ -114,7 +114,7 @@
     exportfm.attachEvent("onButtonClick", function(name,command){
         if(exportfm.validate()){
             if(name=='btExport'){
-                allattgrid.toExcel('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title=AttendanceSheet&filename=Attendance_Sheet');
+                allattgrid.toExcel('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title=AttendanceSheet&filename=Attendance_Sheet');
                 return false;
             }
 

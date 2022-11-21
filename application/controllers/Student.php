@@ -270,9 +270,9 @@ class Student extends CI_Controller
                         $nContents .= "<li>DO NOT REPLY TO THIS EMAIL</li>";
                         $nContents .= "</ul>";
 
-                        $this->email->from("smtp@schooldname.com","ALI");
+                        $this->email->from("smtp@schoolname.com","ALI");
                         $this->email->to($UEMAIL);
-                        $this->email->bcc("records@schooldname.com");
+                        $this->email->bcc("records@schoolname.com");
                         $this->email->subject("Reset ALI Password");
                         $this->email->message($nContents);
                         $this->email->send();
@@ -612,9 +612,9 @@ class Student extends CI_Controller
 
             $ss_email = $this->session->userdata('STDSESS_EMAIL');
             $ss_username = $this->session->userdata('STDSESS_USERNAME');
-            $this->email->from('smtp@schooldname.com', $ss_username);
+            $this->email->from('smtp@schoolname.com', $ss_username);
             $this->email->to($params["receiveremail"]);
-            $this->email->bcc("records@schooldname.com");
+            $this->email->bcc("records@schoolname.com");
             $this->email->subject($params["subject"]);
             $this->email->message($params["FCKeditor1"]);
             if (!empty($params["newfilename"])) {

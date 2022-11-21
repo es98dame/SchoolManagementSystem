@@ -142,11 +142,11 @@
     printfm.attachEvent("onButtonClick", function(name,command){
         if(name=='btExcel'){
             //exportAttSheet();
-            sheetgrid.toExcel('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title=AttendanceSheet&filename=Attendance_Sheet');
+            sheetgrid.toExcel('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-excel-php/generate.php?title=AttendanceSheet&filename=Attendance_Sheet');
             return true;
         }
         if(name=='btPDF'){
-            sheetgrid.toPDF('http://'.$_SERVER['HTTP_HOST'].'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-pdf-php/generate.php?filename=AttendanceSheet');
+            sheetgrid.toPDF('http://'+$_SERVER['HTTP_HOST']+'/dhtmlxSuite/sources/dhtmlxGrid/codebase/grid-pdf-php/generate.php?filename=AttendanceSheet');
             return true;
         }
         return false;

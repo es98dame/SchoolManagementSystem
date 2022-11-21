@@ -12,7 +12,7 @@
             </div>
             <div class="col-md-3 col-sm-4 col-xs-8 text-middle">
                 <div style="float:left;"><img src="<?php echo base_url("assets/images/logo_white.png?ee=1"); ?>" style="max-width:46px; margin:6px;" class="img-responsive"></div>
-                <div style="margin-top:30px;margin-right:10px; margin-left:10px; font-size:12px"><strong>Copyright (c) 2022 <br/>schooldname.edu</strong></div>
+                <div style="margin-top:30px;margin-right:10px; margin-left:10px; font-size:12px"><strong>Copyright (c) 2022 <br/>schoolname.edu</strong></div>
 
 
             </div>

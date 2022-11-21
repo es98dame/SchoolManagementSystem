@@ -1,8 +1,9 @@
-# SchoolManagementSystem
+# School Management System
 It is a web-based system that allows students to manage their information and check their academic records. Also, allows staff, and instructors to put their students' records and export records as pdf, excel and send emails, etc...
 
 ## Table of contents
 - [Tech stacks](#tech-stacks)
+- [System Flow](#system-flow)
 - [Database](#database)
 - [Get Started](#get-started)
 
@@ -12,12 +13,15 @@ It is a web-based system that allows students to manage their information and ch
     <img src="https://user-images.githubusercontent.com/25275753/202945728-da101163-0113-4ac4-b348-b5e2ff7f6b25.png"  width="400" height="300"/>
   2. Dhtmlx(https://dhtmlx.com/)<br/>
   3. Ckeditor(https://ckeditor.com/ckeditor-4/)<br/>
-  4. Bootstrap(./assets)<br/>
+  4. Bootstrap(`./assets`)<br/>
   5. Jquery
- 
+
+## System Flow
+The flow differs depending on the role of the account, but for the highest permissioned admin account, the flow is as follows:
+<img src="https://user-images.githubusercontent.com/25275753/202990886-32765dc7-26e2-45b8-bf14-27485e1a5f96.png"  height="500px"/>
 ## Database 
 ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)<br/>
-Use sql file `./Database.sql` to create database tables. The database consists of a total of 42 tables. You can check the detailed structure in the sql file.
+Use sql file `./Database.sql` to create database tables. The database consists of a total of <b>42 tables</b>. You can check the detailed structure in the sql file.
 here is an example of tables connected by the most relations.<br/>
 <img src="https://user-images.githubusercontent.com/25275753/202981269-54de4e9e-ec1c-4551-8df3-322a55caf1eb.png"  width="80%" height="100%"/>
 #### Query example
